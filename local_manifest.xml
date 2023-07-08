@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+   <!-- Remote For Deploy Trees -->
+
+  <remote name="itzMaurya"
+
+       fetch="https://github.com/itzMaurya" />
+
+    <!-- Set Your Directory From Trees To Here -->
+
+       <project path="device/xiaomi/gauguin" name="device_xiaomi_gauguin" remote="itzMaurya" revision="thirteen" />
+
+       <project path="vendor/xiaomi/gauguin" name="vendor_xiaomi_gauguin" remote="itzMaurya" revision="main" />
+
+       <project path="kernel/xiaomi/gauguin" name="kernel_xiaomi_gauguin" remote="itzMaurya" revision="thirteen" />
+
+       </manifest>
